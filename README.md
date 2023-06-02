@@ -1,7 +1,7 @@
 # Pixel BUAA 固件
 
 该项目使用 STM32CubeMX V6.2.1 + CLion 2021.2 生成
-环境的配置，请参考：[Pixel BUAA 开发板环境配置教程](https://blog.radonyl.xyz:2/archives/581)
+环境的配置，请参考：[Pixel BUAA 开局指南](tutorial.md)
 ## 硬件
 
 ### STM32F042G6U6

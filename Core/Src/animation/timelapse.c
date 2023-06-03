@@ -97,7 +97,7 @@ void working_building_with_letter(char c, uint8_t pwm) {
   working_building_update();
 
   // draw letter on building
-  if (c >= ' ' && c < 'Z') {
+  if (c >= ' ' && c <= 'Z') {
     uint32_t offset = (c - 0x20) * 5;
     matrix_write_red(Font + offset, pwm);
     last_char = c;
